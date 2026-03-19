@@ -21,7 +21,7 @@ namespace GeometryShapeTests
         [Fact]
         public void Triangle_Perimeter_CorrectValues_ReturnsExpected()
         {
-            var tri = new Triangle(3, 4, 5);
+            var tri = new Triangle(1, 4, 5);
             Assert.Equal(12, tri.Perimeter());
         }
 
