@@ -29,7 +29,7 @@ namespace GeometryShapeTests
         public void Triangle_Area_CorrectValues_ReturnsExpected()
         {
             var tri = new Triangle(3, 4, 5);
-            Assert.Equal(30, tri.Area());
+            Assert.Equal(6, tri.Area());
         }
     }
 }
